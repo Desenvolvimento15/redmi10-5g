@@ -244,18 +244,9 @@
   .alinhamento10{padding-top: 10rem;}
   .alinhamento11{display: flex; flex-direction: column; align-items: center;}
   .align-xiaomi{margin-top: -22rem; display: flex; flex-direction: column; align-items: center;}
-  .block{display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 19rem;
-    margin-left: 7rem;
-    width: 31rem;} 
+  .block{display: flex; flex-direction: column; flex-wrap: nowrap; align-content: center; justify-content: center; align-items: center; margin-top: 19rem; margin-left: 7rem; width: 31rem;} 
   
   .item_01{background: url(../media/newImg02-1.jpg); width: 1rem;}
-
   .text-margin{margin-top: -26rem;}
 
   .line_img{width: 50rem; overflow: hidden; margin-left: -16rem;}
@@ -329,7 +320,6 @@
   flex-direction: row;
   align-items: center;
   padding-top: 9rem;
-
   }
 
   .box-content{
@@ -337,7 +327,6 @@
   height: 3.5rem;
   margin: 0.5rem; 
   }  
-
 
   .box-xiaomi{
   height: 5rem;
