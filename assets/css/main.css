@@ -520,6 +520,7 @@
     .img_content{width: 42rem; margin-left: -7rem; margin-top: 2rem; padding: 1rem;}
     .img_tela{padding: 1rem;}
     .img_phone01{width: 51rem; margin-left: -6rem; margin-top: 6rem;}
+    .img-hand{width: 42rem; margin-left: -7rem;}
     .img_phone-01{width: 37rem; margin-left: -7rem;}
     .img_phone02{width: 41rem; margin-left: -11rem;}
     .img_phone03{width: 35rem; margin-left: -5rem;}
@@ -536,11 +537,12 @@
     .text_margin01{margin-top: -2rem;}
 
     .box-img{
-      width: 2.2rem;
-      justify-content: center;
-      align-items: center;
-      margin: 0.5rem;
+    width: 2.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
     }
+
     .base_silver{
     box-sizing: border-box;
     display: flex;
@@ -578,25 +580,25 @@
     flex-direction: row;
     }
 
-   .grid-xiaomi-03{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   }
+    .grid-xiaomi-03{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
     
-   .grind-video{
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-   }
+    .grind-video{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
 
-   .grid-xiaomi-base{
-   display: flex;
-   flex-wrap: nowrap;
-   align-items: center;
-   padding: 1rem;
-   }
+    .grid-xiaomi-base{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1rem;
+    }
 
    .box-content{
     width: 24rem;
@@ -611,14 +613,14 @@
     }
   
     .box-xiaomi{
-      height: 5rem;
-      background-image: var(--background-gradient-01);
-      justify-content: center;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-content: center;
+    height: 5rem;
+    background-image: var(--background-gradient-01);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
     }
 
     .fundo01{
