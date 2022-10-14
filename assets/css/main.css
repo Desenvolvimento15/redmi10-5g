@@ -496,6 +496,8 @@
     .Text_Xiaomi_block{font-size: 1.8rem; font-weight: bold; color: var(--background-base); padding: 1rem; text-align: center;}
     .Text_Xiaomi_02_white01{font-size: 1.8rem; font-weight: bold; color: var(--background-base); text-align: left;}
     .Text_Xiaomi_03_white{font-size: 1.8rem; font-weight: bold; color: var(--background-base);}
+    .Text_Xiaomi_04_white{font-size: 1.8rem; font-weight: bold; color: var(--background-base); position: relative;}
+
     .Text_Xiaomi_03{margin-left: 1rem;}
     .Text_Xiaomi_Notas{font-size: 1rem; font-weight: bold; color: var(--content-base); padding: 1rem; text-align: center;}
 
