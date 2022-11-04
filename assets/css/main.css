@@ -219,7 +219,6 @@
 
 @media screen and (min-device-width: 1024px){
 
-
   .Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--background-black); padding: 1rem; text-align: center;}
   .Text_Xiaomi_02{font-size: 1.8rem; font-weight: bold; color: var(--background-black); padding: 1rem; text-align: center;}
   .Text_box_01{font-size: 1.8rem; font-weight: bold; color: var(--background-black); padding: 1rem; text-align: left}
@@ -483,7 +482,7 @@
     .Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--background-black); padding: 1rem; text-align: left;}
     .Text_Xiaomi_02{font-size: 1.8rem; font-weight: bold; color: var(--background-black); padding: 1rem; text-align: left;}
     .Text_box_01{font-size: 1.8rem; font-weight: bold; color: var(--background-black); padding: 1rem; text-align: left}
-  
+    .Text_Xiaomi_02_white_silver{font-size: 1.8rem; font-weight: bold; color: var(--background-base);text-align: center;}
     .Text_Xiaomi_02_white{font-size: 1.8rem; font-weight: bold; color: var(--background-base); padding: 1rem; text-align: center;}
     .Text_Xiaomi_block{font-size: 1.8rem; font-weight: bold; color: var(--background-base); padding: 1rem; text-align: center;}
     .Text_Xiaomi_02_white01{font-size: 1.8rem; font-weight: bold; color: var(--background-base); text-align: left;}
@@ -498,7 +497,9 @@
     
     .p_box_01{font-size: 1rem; color: var(--background-black); text-align: left; padding: 1rem;}
     .p_Xiaomi_white{font-size: 1rem;  color: var(--background-base); text-align: center; padding: 1rem;}
-    .p_Xiaomi-white{font-size: 1rem; color: var(--background-base); text-align: center;}
+    .p_Xiaomi-box{font-size: 1rem; color: var(--background-base); text-align: center;}
+
+   
 
     .p_Xiaomi_02{margin-left: 1rem;}
 
@@ -705,7 +706,7 @@
     }
           
     .fundo10{
-    height: 25rem;
+    height: 31rem;
     background-image: var(--background-gradient-01);
     background-size:cover;
     display: flex;
