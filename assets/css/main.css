@@ -234,7 +234,6 @@
   .p_Xiaomi_white01{font-size: 1rem; color: var(--background-base); text-align: center;}
   .p_box_01{font-size: 1rem; color: var(--background-black); text-align: left; padding: 1rem;}
   .p_Xiaomi_white02{font-size: 1rem; color: var(--background-base); text-align: center; padding: 1rem;margin-top: -2rem;}
-   
   .p_Xiaomi_white03{font-size: 0.7rem; color: var(--background-base); text-align: center; padding: 1rem;}
    
   .alinhamento03{padding-top: 17rem;}
@@ -250,15 +249,11 @@
   .text_margin{margin-left: 1rem;}
   .text_margin01{margin-top: -2rem;}
 
-  .img_content{
-  margin-top: 2rem;
-  padding: 1rem;}
-  
+  .img_content{margin-top: 2rem; padding: 1rem;}
   .img_tela{padding: 1rem;}
 
   .topo-margin{padding-top: 11rem;}
   .topo{margin-top: 11rem;}
-
 
   .base_silver{
   box-sizing: border-box;
@@ -420,15 +415,12 @@
   }
         
   .fundo10{
-  height: 25rem;
+  height: 33rem;
   background-image: var(--background-gradient-01);
   background-size:cover;
   display: flex;
   flex-direction: column;
   }
-
-
-
     
 
 }
