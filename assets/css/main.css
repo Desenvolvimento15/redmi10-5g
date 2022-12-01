@@ -484,7 +484,7 @@
     .Text_box_01{font-size: 1.8rem; font-weight: bold; color: var(--background-black); padding: 1rem; text-align: left}
     .Text_Xiaomi_02_white_silver{font-size: 1.8rem; font-weight: bold; color: var(--background-base);text-align: center;}
     .Text_Xiaomi_02_white{font-size: 1.8rem; font-weight: bold; color: var(--background-base); padding: 1rem; text-align: center;}
-    .Text_Xiaomi_block{font-size: 1.8rem; font-weight: bold; color: var(--background-base); padding: 1rem; text-align: center;}
+    .Text_Xiaomi_block{font-size: 1.8rem; font-weight: bold; color: var(--background-base); text-align: center;}
     .Text_Xiaomi_02_white01{font-size: 1.8rem; font-weight: bold; color: var(--background-base); text-align: left;}
     .Text_Xiaomi_03_white{font-size: 1.8rem; font-weight: bold; color: var(--background-base);}
     .Text_Xiaomi_04_white{font-size: 1.8rem; font-weight: bold; color: var(--background-base); position: relative;}
@@ -499,13 +499,12 @@
     .p_Xiaomi_white{font-size: 1rem;  color: var(--background-base); text-align: center; padding: 1rem;}
     .p_Xiaomi-box{font-size: 1rem; color: var(--background-base); text-align: center;}
 
-   
-
     .p_Xiaomi_02{margin-left: 1rem;}
 
     .p_Xiaomi_white01{font-size: 1rem; color: var(--background-base); text-align: left;}
     .p_Xiaomi_white02{font-size: 1rem; color: var(--background-base); text-align: center; padding: 1rem; margin-top: -2rem;}
     .p_Xiaomi_white03{font-size: 0.7rem; color: var(--background-base);}
+    .p_Xiaomi-box{font-size: 0.7rem; color: var(--background-base); text-align: center;}
     
     .align-xiaomi{margin-top: -12rem;}
     .alinhamento01{margin-top: 6rem;}
@@ -572,7 +571,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
+    width: 13rem;
+    max-width: 100%;
+    margin: 0 auto;
     }
 
     .grid-xiaomi-03{
@@ -670,7 +672,7 @@
     }
 
     .fundo05{
-    height: 10rem;
+    height: 13rem;
     background-image: var(--background-gradient-01);
     }
 
@@ -706,28 +708,11 @@
     }
           
     .fundo10{
-    height: 31rem;
+    height: 23rem;
     background-image: var(--background-gradient-01);
-    background-size:cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
 
 }
