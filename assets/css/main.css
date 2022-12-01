@@ -511,11 +511,17 @@
     .alinhamento03{padding-top: 17rem;}
     .alinhamento10{padding-top: 10rem;}
 
-    .img_content{width: 42rem; margin-left: -7rem; margin-top: 2rem; padding: 1rem;}
+    .img_content{
+    margin-top: 3rem;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    }
+
     .img_tela{padding: 1rem;}
     .img_phone01{width: 51rem; margin-left: -6rem; margin-top: 6rem;}
     .img-hand{width: 42rem; margin-left: -7rem;}
-    .img_phone-01{width: 37rem; margin-left: -7rem;}
+    .img_phone-01{max-width: 100%;}
     .img_phone02{width: 41rem; margin-left: -11rem;}
     .img_phone03{width: 35rem; margin-left: -5rem;}
     .img_boy{width: 57rem; margin-left: -31rem;}
@@ -597,8 +603,8 @@
     padding: 1rem;
     }
 
-   .box-content{
-    width: 24rem;
+    .box-content{
+    max-width: 93%;
     height: 3.3rem;
     background: #ccc;
     margin: 0.5rem;
@@ -608,7 +614,7 @@
     justify-content: center;
     align-items: center;
     }
-  
+
     .box-xiaomi{
     height: 5rem;
     background-image: var(--background-gradient-01);
@@ -692,9 +698,9 @@
     }
 
     .fundo08{
-    height: 35rem;
+    height: 31rem;
     background: var(--background-gradient-01);
-    background-size:cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     }
