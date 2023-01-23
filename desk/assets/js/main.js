@@ -39,3 +39,10 @@
 
   var image = $(div).data(data-background-image)
   image.each(function(image){$(this).attr("background",image)})
+
+  $('.phone').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
